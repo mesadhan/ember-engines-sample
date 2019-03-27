@@ -1,10 +1,11 @@
 
-
 # Ember Engines Agenda
 - [x] - Create an Ember `Main  Application`
 - [x] - Then, Install Ember Engines into `Main Application`
 - [x] - Create `Child Application` into `Main Application`
 - [x] - Ember Engine CLI Commands
+- [x] - Run Application and then Visit Routes
+- [ ] 
 
 
 > Setp1: Create an Ember `Main  Application`
@@ -26,11 +27,18 @@
     $ ember g route routeName
     $ ember g in-repo-engine rms route
 
+> Step5: Run Application and then Acess Routes
 
-# ember-engines-sample
+    $ ember serve
 
-This README outlines the details of collaborating on this Ember application.
-A short introduction of this app could easily go here.
+Open Browser then:
+ 
+- Visit `Main Applicaiton` at [http://localhost:4200](http://localhost:4200)
+- Visit `Child Applicaiton` at [http://localhost:4200](http://localhost:4200/rms)
+- Visit `Child Applicaiton` at [http://localhost:4200](http://localhost:4200/pom)
+  
+___
+___
 
 ## Prerequisites
 

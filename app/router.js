@@ -7,6 +7,8 @@ const Router = EmberRouter.extend({
 });
 
 Router.map(function() {
+  this.mount('rms');
+  this.mount('pom');
 });
 
 export default Router;

@@ -1,3 +1,32 @@
+
+
+# Ember Engines Agenda
+- [x] - Create an Ember `Main  Application`
+- [x] - Then, Install Ember Engines into `Main Application`
+- [x] - Create `Child Application` into `Main Application`
+- [x] - Ember Engine CLI Commands
+
+
+> Setp1: Create an Ember `Main  Application`
+
+    $ ember new ember-engines-sample
+    $ cd ember-engines-sample
+
+> Setp2: Install Ember Engines into `Main Application`
+
+    $ ember install ember-engines
+
+> Step3: Create `Child Application` into `Main Application`
+
+    $ ember g in-repo-engine rms
+    $ ember g in-repo-engine pom
+
+> Step4: Ember Engine CLI Commands
+
+    $ ember g route routeName
+    $ ember g in-repo-engine rms route
+
+
 # ember-engines-sample
 
 This README outlines the details of collaborating on this Ember application.

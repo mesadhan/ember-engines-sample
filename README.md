@@ -5,7 +5,7 @@
 - [x] - Create `Child Application` into `Main Application`
 - [x] - Ember Engine CLI Commands
 - [x] - Run Application and then Visit Routes
-- [ ] 
+- [x] - Referances
 
 
 > Setp1: Create an Ember `Main  Application`
@@ -37,7 +37,12 @@ Open Browser then:
 - Visit `Child Applicaiton` at [http://localhost:4200](http://localhost:4200/rms)
 - Visit `Child Applicaiton` at [http://localhost:4200](http://localhost:4200/pom)
   
-___
+
+> References:
+
+
+- Official doc at [ember-engines](http://ember-engines.com/)
+- Conpect Discussion at [ember-engines](https://www.bignerdranch.com/blog/is-your-ember-app-too-big-split-it-up-with-ember-engines/)
 ___
 
 ## Prerequisites

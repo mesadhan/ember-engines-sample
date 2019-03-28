@@ -97,3 +97,24 @@ Specify what it takes to deploy your app.
 * Development Browser Extensions
   * [ember inspector for chrome](https://chrome.google.com/webstore/detail/ember-inspector/bmdblncegkenkacieihfhpjfppoconhi)
   * [ember inspector for firefox](https://addons.mozilla.org/en-US/firefox/addon/ember-inspector/)
+
+
+# Git Commands
+> Working With Git Tag for  Tag Here, v1.1 is tagname
+
+    git tag -a v1.1 -m "Project Version 1.1"
+    git push origin v1.1
+
+
+    git tag -d v1.1
+    git push origin --delete v1.1
+
+>This will create a new branch called `branchName` and check it out.
+
+    $ git checkout -b branchName commitId
+
+
+> This just creates the branch without checking it out.
+
+    $ git branch branchName commitId
+
